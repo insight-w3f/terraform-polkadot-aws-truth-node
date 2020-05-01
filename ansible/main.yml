@@ -1,0 +1,6 @@
+
+---
+- hosts: all
+  become: yes
+  roles:
+    - insight_w3f.polkadot_truth_node
